@@ -1,0 +1,28 @@
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 24px;
+  padding-left: 24px;
+  color: #14213d;
+  font-weight: 600; }
+
+.navbar {
+  background: #e5e5e5; }
+  .navbar .navbar-brand {
+    color: #14213d;
+    padding-top: 0px;
+    padding-bottom: 0px; }
+    .navbar .navbar-brand img {
+      height: 50px;
+      width: 50px;
+      margin-top: 4px; }
+  .navbar ul li a {
+    color: #14213d;
+    font-weight: 600; }
+  .navbar ul li a:hover {
+    background: #14213d;
+    color: #e5e5e5 !important; }
+  .navbar .btn.btn-outline-dark {
+    border: 1px solid #14213d;
+    font-weight: 600; }
+    .navbar .btn.btn-outline-dark .btn.btn-outline-dark:hover {
+      background: #14213d;
+      color: #e5e5e5; }
