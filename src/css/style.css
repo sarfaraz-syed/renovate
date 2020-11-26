@@ -61,6 +61,65 @@
     #index .content-box p {
       margin-top: 25px; }
 
+#collection {
+  background: #e5e5e5;
+  color: #14213d; }
+  #collection .row:hover {
+    background: #e5e5e5; }
+  #collection h2 {
+    text-align: center;
+    padding-top: 30px; }
+  #collection ul {
+    width: max-content;
+    margin: auto; }
+  #collection .nav-link {
+    border: 1px solid #14213d;
+    background: #e5e5e5;
+    color: #14213d;
+    margin-right: 10px;
+    padding: 4px 1rem; }
+  #collection .nav-link.active {
+    background: #14213d;
+    color: #e5e5e5; }
+  #collection .tab-content {
+    background: #a8dadc;
+    margin-top: 40px;
+    box-shadow: 0px 0px 12px 5px #14213d; }
+    #collection .tab-content .row {
+      padding: 15px; }
+    #collection .tab-content img {
+      float: left;
+      height: 100px;
+      width: 80px; }
+    #collection .tab-content .fa.fa-map-marker {
+      margin-left: 10px;
+      margin-right: 5px; }
+    #collection .tab-content h4 {
+      padding-left: 110px; }
+    #collection .tab-content p {
+      padding-left: 110px; }
+    #collection .tab-content .btn.btn-outline-dark {
+      border: 1px solid #14213d;
+      font-weight: 600; }
+      #collection .tab-content .btn.btn-outline-dark .btn.btn-outline-dark:hover {
+        background: #14213d;
+        color: #e5e5e5; }
+  #collection .btn-see {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px; }
+    #collection .btn-see .btn {
+      padding-top: 4px;
+      margin-top: 15px;
+      background: #e5e5e5;
+      color: #14213d;
+      font-weight: 600;
+      letter-spacing: 2px;
+      box-shadow: 0px 0px 12px 5px #14213d; }
+    #collection .btn-see .btn:hover {
+      background: #14213d;
+      color: #e5e5e5; }
+
 @media (max-width: 767px) {
   #index .dark-overlay .col-sm-6 {
     margin-top: 20px; }
@@ -70,4 +129,6 @@
         font-size: 12px; }
       #index .dark-overlay .col-sm-6 .timer h2 {
         color: #e63946;
-        font-size: 20px; } }
+        font-size: 20px; }
+  #collection .col-md-3 {
+    margin-top: 12px !important; } }
