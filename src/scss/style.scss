@@ -102,6 +102,10 @@
         margin-right: 10px;
         padding: 4px 1rem;
     }
+    .nav-link:hover{
+        background:  #14213d;
+        color: #e5e5e5;
+    }
     .nav-link.active{
         background:  #14213d;
         color: #e5e5e5;
@@ -115,8 +119,8 @@
         }
         img{
             float: left;
-            height: 100px;
-            width: 80px;
+            height: 90px;
+            width: 90px;
             
         }
         .fa.fa-map-marker{

@@ -78,6 +78,9 @@
     color: #14213d;
     margin-right: 10px;
     padding: 4px 1rem; }
+  #collection .nav-link:hover {
+    background: #14213d;
+    color: #e5e5e5; }
   #collection .nav-link.active {
     background: #14213d;
     color: #e5e5e5; }
@@ -89,8 +92,8 @@
       padding: 15px; }
     #collection .tab-content img {
       float: left;
-      height: 100px;
-      width: 80px; }
+      height: 90px;
+      width: 90px; }
     #collection .tab-content .fa.fa-map-marker {
       margin-left: 10px;
       margin-right: 5px; }
