@@ -249,6 +249,25 @@
     margin-top: 10px;
     margin-bottom: 60px; }
 
+#copyright {
+  background: #14213d;
+  color: #a8dadc;
+  padding: 20px;
+  text-align: center; }
+  #copyright a {
+    color: #a8dadc; }
+  #copyright img {
+    height: 30px;
+    margin-top: 5px; }
+  #copyright h3 {
+    margin-bottom: 0px; }
+  #copyright .copy p {
+    margin-top: 10px;
+    margin-bottom: 0px; }
+  #copyright .design p {
+    margin-top: 10px;
+    margin-bottom: 0px; }
+
 @media (max-width: 767px) {
   #index .dark-overlay .col-sm-6 {
     margin-top: 20px; }
