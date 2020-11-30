@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="Minimal-jQuery-Countdown-Plugin-with-Custom-Timezone-Countdown-Clock/jquery.countdown.css">
 </head>
 <body>
     <nav class="navbar navbar-light navbar-expand-lg">
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="#collection">Collection</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Feature</a>
+                        <a class="nav-link" href="#feature">Feature</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Faq</a>
@@ -307,14 +307,70 @@
                 <a href="#" class="btn">See more</a>
             </div>
           </div>
-          
     </section>
     
+    <!--Features-->
+
+    <section id="feature">
+        <div class="dark-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="timer">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <h3>Lorem ipsum</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ratione, maiores iusto rem quod veniam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam velit, veritatis ea ipsam aliquam sapiente.</p>
+                        </div>
+                        <div>
+                            <ul id="example">
+                                <li><p class="days_text">Days</p><span class="days">00</span></li>
+                                <li class="seperator">:</li>
+                                <li><p class="hours_text">Hours</p><span class="hours">00</span></li>
+                                <li class="seperator">:</li>
+                                <li><p class="minutes_text">Minutes</p><span class="minutes">00</span></li>
+                                <li class="seperator">:</li>
+                                <li><p class="seconds_text">Seconds</p><span class="seconds">00</span></li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="collection-footer">
+        <div class="container">
+            <div class="row">
+                <div class="item">
+                    <div class="div-1">
+                        <h3>232</h3>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class="div-2">
+                        <h3>232</h3>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class="div-3">
+                        <h3>232</h3>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- JS FILES -->
     <script src="js/jquery.slim.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="Minimal-jQuery-Countdown-Plugin-with-Custom-Timezone-Countdown-Clock/jquery.countdown.js"></script>
+    <script src="Minimal-jQuery-Countdown-Plugin-with-Custom-Timezone-Countdown-Clock/jquery.countdown.min.js"></script>
+    <script>
+        $('#example').countdown({
+        date: '12/24/2020 23:59:59'
+        }, function () {
+          alert('Merry Christmas!');
+        });
+    </script>
 
 </body>
 </html>
