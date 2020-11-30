@@ -159,33 +159,54 @@
     color: #e5e5e5;
     font-size: 25px; }
 
-#collection-footer {
+#feature-footer {
   background: #14213d;
   color: #e5e5e5; }
-  #collection-footer .item {
+  #feature-footer .item {
     display: flex;
     margin: auto;
     text-align: center;
     padding: 26px; }
-    #collection-footer .item h3 {
+    #feature-footer .item h3 {
       font-weight: 600; }
-    #collection-footer .item p {
+    #feature-footer .item p {
       margin-bottom: 0; }
-    #collection-footer .item .div-1 {
+    #feature-footer .item .div-1 {
       padding-right: 10px;
       border-right: 2px solid;
       margin-top: 30px;
       margin-bottom: 30px; }
-    #collection-footer .item .div-2 {
+    #feature-footer .item .div-2 {
       padding-left: 10px;
       padding-right: 10px;
       border-right: 2px solid;
       margin-top: 30px;
       margin-bottom: 30px; }
-    #collection-footer .item .div-3 {
+    #feature-footer .item .div-3 {
       padding-left: 10px;
       margin-top: 30px;
       margin-bottom: 30px; }
+
+#faq-header {
+  background: #e5e5e5;
+  color: #14213d; }
+  #faq-header h3 {
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 0;
+    letter-spacing: 4px; }
+  #faq-header .faq-details {
+    text-align: center;
+    padding: 15px; }
+    #faq-header .faq-details .fa {
+      font-size: 30px;
+      padding: 15px;
+      color: #e63946; }
+    #faq-header .faq-details h4 {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    #faq-header .faq-details p {
+      text-align: justify; }
 
 @media (max-width: 767px) {
   #index .dark-overlay .col-sm-6 {
