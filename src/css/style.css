@@ -208,6 +208,47 @@
     #faq-header .faq-details p {
       text-align: justify; }
 
+#accordion {
+  background: #14213d;
+  color: #e5e5e5; }
+  #accordion .col-md-6 {
+    padding: 50px; }
+    #accordion .col-md-6 h5 {
+      padding-bottom: 24px; }
+    #accordion .col-md-6 .card {
+      border-radius: 0px;
+      color: #14213d; }
+      #accordion .col-md-6 .card .card-header {
+        padding: 10px 17px; }
+        #accordion .col-md-6 .card .card-header .fa.fa-arrow-circle-down {
+          float: right; }
+  #accordion iframe {
+    width: 100%; }
+
+#customer {
+  background: #e5e5e5;
+  color: #14213d; }
+  #customer .box-header {
+    padding: 50px 40px 10px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px; }
+  #customer .multiple-images {
+    padding-top: 40px;
+    padding-bottom: 100px; }
+  #customer .slick-dotted.slick-slider {
+    margin-bottom: 0px; }
+    #customer .slick-dotted.slick-slider .slick-list.draggable {
+      text-align: -moz-center; }
+  #customer .slick-dots {
+    position: absolute;
+    display: block;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px; }
+
 @media (max-width: 767px) {
   #index .dark-overlay .col-sm-6 {
     margin-top: 20px; }

@@ -267,6 +267,58 @@
         }
     }
 }
+#accordion{
+    background: #14213d;
+    color: #e5e5e5;
+    .col-md-6{
+        padding: 50px;
+        h5{
+            padding-bottom: 24px;
+        }
+        .card{
+            border-radius: 0px;
+            color: #14213d;
+            .card-header{
+                padding: 10px 17px;
+                .fa.fa-arrow-circle-down{
+                    float: right;
+                }
+            }
+        }
+    }
+    iframe{
+        width: 100%;
+    }
+}
+#customer{
+    background: #e5e5e5;
+    color: #14213d;
+    .box-header{
+        padding: 50px 40px 10px;
+        text-align: center;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+    .multiple-images{
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    .slick-dotted.slick-slider{
+        margin-bottom: 0px;
+        .slick-list.draggable{
+            text-align: -moz-center;
+        }
+    }
+    .slick-dots{
+        position: absolute;
+        display: block;
+        width: 100%;
+        list-style: none;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+}
 
 @media (max-width: 767px){
     #index{

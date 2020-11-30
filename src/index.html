@@ -7,6 +7,8 @@
     <title>MediTech</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="Minimal-jQuery-Countdown-Plugin-with-Custom-Timezone-Countdown-Clock/jquery.countdown.css">
 </head>
@@ -392,12 +394,150 @@
         </div>
     </section>
 
+    <section id="accordion">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Lorem ipsum dolor sit amet.</h5>
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h4 class="mb-0">
+                                <a href="#collapseOne" class="text-dark" data-toggle="collapse">Question One?
+                                <i class="fa fa-arrow-circle-down"></i> </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="collapse p-3" data-parent="#accordion">
+                            <p class="lead mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit laboriosam quod ex natus voluptatum veritatis.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h4 class="mb-0">
+                                <a href="#collapseTwo" class="text-dark" data-toggle="collapse">Question Two?
+                                    <i class="fa fa-arrow-circle-down"></i> </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="collapse p-3" data-parent="#accordion">
+                            <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis illo explicabo eveniet aut voluptatum ducimus.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h4 class="mb-0">
+                                <a href="#collapseThree" data-toggle="collapse" class="text-dark">Question Three? 
+                                    <i class="fa fa-arrow-circle-down"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="collapse p-3" data-parent="#accordion">
+                            <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum distinctio fuga pariatur, animi provident nam?</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h4 class="mb-0">
+                                <a href="#collapseFour" data-toggle="collapse" class="text-dark">Question Four? 
+                                    <i class="fa fa-arrow-circle-down"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="collapse p-3" data-parent="#accordion">
+                            <p class="lead mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit laboriosam quod ex natus voluptatum veritatis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5>Lorem ipsum dolor sit amet.</h5>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29049.632888995162!2d91.7636192!3d24.47838375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1606749180166!5m2!1sen!2sbd" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Brand Name-->
+
+    <section id="customer">
+        <div class="container">
+          <div class="box-header"><h2>WE WORK WITH</h2></div>
+          <div class="multiple-images">
+            <div><img src="img/logo/img-logo0.png" alt=""></div>
+            <div><img src="img/logo/img-logo3.png" alt=""></div>
+            <div><img src="img/logo/img-logo1.png" alt=""></div>
+            <div><img src="img/logo/img-logo2.png" alt=""></div>
+            <div><img src="img/logo/img-logo5.png" alt=""></div>
+            <div><img src="img/logo/img-logo1.png" alt=""></div>
+            <div><img src="img/logo/img-logo3.png" alt=""></div>
+            <div><img src="img/logo/img-logo2.png" alt=""></div>
+          </div>
+        </div>
+      </section>
+
     <!-- JS FILES -->
     <script src="js/jquery.slim.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="Minimal-jQuery-Countdown-Plugin-with-Custom-Timezone-Countdown-Clock/jquery.countdown.js"></script>
     <script src="Minimal-jQuery-Countdown-Plugin-with-Custom-Timezone-Countdown-Clock/jquery.countdown.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script>
+    $('.multiple-images').slick({
+  dots: true,
+  arrows: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 2,
+  responsive: [
+  {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 6,
+        infinite: true,
+        dots: true
+      }
+    },
+  {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script>
     <script>
         $('#example').countdown({
         date: '12/24/2020 23:59:59'
